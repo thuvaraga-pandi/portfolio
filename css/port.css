@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+header .bgc{
+    position: fixed;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    z-index: 2;
+}
+header .nav-link {
+    color: #fff;
+}
+header .nav-link:hover {
+    color: #1f7bb1;
+}
+.banner{
+    background-image: url('../image/port.jpg');
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+   display: table;
+}
+.banner .banner-text {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.logo{
+    width: 50px;
+}
+.about .linkin{
+    width: 30px;
+   
+}
+.about .icon{
+    margin-left: 7px;
+}
+.education{
+    background-image: url('/image/mceted.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.education::after{
+    content: '';
+    position: absolute;
+    background: #000000b5;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0;
+}
+.education .wordings {
+    position: relative;
+    z-index: 1;
+}
+.skills .sized{
+    width: 200px;
+}
+.foot .pic{
+    width: 150px;
+}
+.foot .fbg{
+    background-color: #000;
+    color: #fff;
+}
+.project .resize{
+    width: 100px;
+}
+.about .cert{
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (max-width:768px){
+    .about .cert {
+        height: auto;
+    }
+}
