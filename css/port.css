@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lexend+Peta:wght@700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-family: 'Lexend Peta', sans-serif;
+}
+h4{
+    font-family: 'Lexend Peta', sans-serif;
+}
+h3{
+    font-family: 'Lexend Peta', sans-serif;
 }
 header .bgc{
     position: fixed;
@@ -29,6 +39,7 @@ header .nav-link:hover {
     vertical-align: middle;
     
 }
+    
 .logo{
     width: 50px;
 }
@@ -63,7 +74,10 @@ header .nav-link:hover {
     z-index: 1;
 }
 .skills .sized{
-    width: 200px;
+    width: 150px;
+}
+.skills .sizedjs{
+    width: 135px;
 }
 .skills .sp{
     padding-top: 100px;
@@ -76,7 +90,7 @@ header .nav-link:hover {
     color: #fff;
 }
 .project .resize{
-    width: 100px;
+    width: 150px;
 }
 .about .cert{
     width: 100%;
