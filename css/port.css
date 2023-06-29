@@ -16,7 +16,7 @@ header .nav-link {
 header .nav-link:hover {
     color: #1f7bb1;
 }
-.banner{
+.banner{  
     background-image: url('../image/port.jpg');
     background-position: center;
     width: 100%;
@@ -81,4 +81,5 @@ header .nav-link:hover {
     .about .cert {
         height: auto;
     }
+    
 }
