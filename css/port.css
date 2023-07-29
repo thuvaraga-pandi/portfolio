@@ -103,3 +103,18 @@ header .nav-link:hover {
     }
 
 }
+.mail{
+    color:white;
+    text-decoration:green;
+   
+}
+.tel{
+    color: white;
+    text-decoration: none;
+}
+.mail:hover{
+    color: rgb(32, 169, 211);
+}
+.tel:hover{
+    color: rgb(32, 169, 211);
+}
